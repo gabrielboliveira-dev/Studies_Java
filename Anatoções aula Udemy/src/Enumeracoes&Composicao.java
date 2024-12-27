@@ -9,5 +9,8 @@ Palavra chave em Java: enum
 Vantagem: melhor semântica, código mais legível e auxiliado pelo
 compilador
 
+###2 Conversão de String para enum
 
+OrderStatus os1 = OrderStatus.DELIVERED;
+OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
  */
